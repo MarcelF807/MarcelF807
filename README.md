@@ -20,7 +20,7 @@ API_KEY = "HIER_DEIN_API_KEY"
 API_SECRET = "HIER_DEIN_API_SECRET"
 
 # Coinbase API-Endpunkt
-url = "https://api.coinbase.com/v2/accounts"
+url = "https://api.exchange.coinbase.com"
 
 headers = {
     "Authorization": f"Bearer {API_KEY}",
