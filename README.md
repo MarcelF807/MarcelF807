@@ -53,7 +53,7 @@ try:
                 writer = csv.writer(file)
                 writer.writerow([timestamp, currency, balance])
 
-    print(f"\n✅ Coinbase-Bericht gespeichert in: {csv_file}")
+        print(f"\n✅ Coinbase-Bericht gespeichert in: {csv_file}")
 
 except Exception as e:
     print(f"\n⚠️ Fehler beim Abrufen der Coinbase-Daten: {e}")
